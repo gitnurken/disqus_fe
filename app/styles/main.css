@@ -1,16 +1,39 @@
-body, html {
+body,
+html {
     height: 600px;
     width: 400px;
     overflow: hidden;
 }
+
 body {
-  /*padding: 20px;*/
+    padding: 20px;
 }
 
 .panel-body {
-    max-height: 300px;
+    max-height: 110px;
 }
 
-.panel-primary{
-    max-height: 600px;
+.panel-primary {
+    max-height: 300px;
+    overflow: auto;
+}
+
+#form {
+    margin-top: -15px;
+}
+
+#comments {
+	padding-top: 10px;
+    padding-left: 10px;
+    min-height: 70px;
+}
+
+#icon,
+#type {
+    float: left;
+}
+
+#type {
+    margin-left: 10px;
+    width: 90%;
 }
