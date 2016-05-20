@@ -5,7 +5,7 @@
 module = exports ? this
 
 # our host for requests
-urlBackend = 'http://localhost:8000/api/v1/comment/'
+urlBackend = 'http://localhost:8000/api/comment/'
 # count sum of comments
 total_count = 0
 
